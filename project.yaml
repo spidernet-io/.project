@@ -1,0 +1,73 @@
+# .project metadata for Spiderpool
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "spiderpool"
+name: "Spiderpool"
+description: "Spiderpool is the underlay and RDMA network solution of the Kubernetes, for bare metal, VM and public cloud"
+type: "project"
+project_lead: "weizhoublue" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#spiderpool"
+    link: "https://cloud-native.slack.com/messages/spiderpool"
+    primary: true
+  - name: "#Spiderpool"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2023-12-19T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/33" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/spidernet-io/spiderpool"
+
+website: "https://spidernet-io.github.io/spiderpool/"
+
+artwork: "https://landscape.cncf.io/logos/spiderpool.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/spidernet-io/spiderpool/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "spidernet-io/spiderpool"
+
+social:
+  twitter: "https://twitter.com/daocloud_io"
+
+security:
+  policy:
+    path: "https://github.com/spidernet-io/spiderpool/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/spidernet-io/spiderpool/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/spidernet-io/spiderpool/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/spidernet-io/spiderpool/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/spidernet-io/spiderpool/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/spidernet-io/spiderpool/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Network"
+
+# CLOMonitor Score: 64/100
+# Documentation: 73 | License: 75 | Best Practices: 68 | Security: 48

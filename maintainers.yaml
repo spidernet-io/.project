@@ -1,0 +1,16 @@
+# Maintainer roster for Spiderpool
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "spiderpool"
+    org: "spidernet-io"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - weizhoublue
+          - cyclinder
+          - windsonsea
+          - yankay
+          - panpan0000
